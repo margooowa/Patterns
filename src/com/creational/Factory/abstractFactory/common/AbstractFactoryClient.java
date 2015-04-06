@@ -17,7 +17,7 @@ public class AbstractFactoryClient {
         System.out.println("ProductA type from factory1 : " + factory1.createProductA().getClass());
         System.out.println("ProductB type from factory1 : " + factory1.createProductB().getClass());
         System.out.println("ProductA type from factory2 : " + factory2.createProductA().getClass());
-        System.out.println("ProductB type from factory2 : " + factory2.createProductA().getClass());
+        System.out.println("ProductB type from factory2 : " + factory2.createProductB().getClass());
         
     }
     
